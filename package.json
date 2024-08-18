@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "node-watch": "^0.7.4",
+    "ws": "^8.18.0"
+  },
+  "scripts": {
+    "start": "node watch.js"
+  }
+}

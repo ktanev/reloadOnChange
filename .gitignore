@@ -1,0 +1,8 @@
+*.key
+*.cert
+*.crt
+node_modules/
+/node_modules/
+package-lock.json
+watch-server.cert
+watch-server.key
