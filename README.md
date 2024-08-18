@@ -4,8 +4,8 @@
 *  Generate the needed SSL files OR copy them from auto-generated SSL files from MAMP
 ``` openssl req -nodes -new -x509 -keyout watch-server.key -out watch-server.cert ```
 *  npm start
-* Visit ``` https://local-domain.com:8080 ``` and accept the warning message for Invalid certificate
 * Transfer the cert file to the iOS device, open it and install it. Tested on iOS 17.5 and works perfect. I'm using MAMP Pro with local-domain.com to serve the project.
+* * Visit ``` https://local-domain.com:8080 ``` and accept the warning message for Invalid certificate
 ### Add client with reload functionality to the index.php file 
 ``` 
 	<script>
